@@ -213,6 +213,26 @@
 		E5FBA85C1BBE80EA005755CD /* FSArgumentParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DACF2F0314FD3BED0097C754 /* FSArgumentParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5FBA85D1BBE80EA005755CD /* FSArgsKonstants.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4215B41562E09100F82E8E /* FSArgsKonstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5FBA85E1BBE80EA005755CD /* FSMutableAttributedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = DA42159815629EF800F82E8E /* FSMutableAttributedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8661BBE87CD005755CD /* FSArgumentSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF2F0614FD3BED0097C754 /* FSArgumentSignature.m */; };
+		E5FBA8671BBE87CD005755CD /* FSCountedArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0044B0155D99FF0028A012 /* FSCountedArgument.m */; };
+		E5FBA8681BBE87CD005755CD /* FSValuedArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0044B6155D9B2F0028A012 /* FSValuedArgument.m */; };
+		E5FBA8691BBE87CD005755CD /* FSSwitchRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA17B90D156584EB00BDDA7E /* FSSwitchRecognizer.m */; };
+		E5FBA86A1BBE87CD005755CD /* FSSwitchToken.m in Sources */ = {isa = PBXBuildFile; fileRef = DA17B9121565853E00BDDA7E /* FSSwitchToken.m */; };
+		E5FBA86B1BBE87CD005755CD /* FSAliasRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA17B91A1565891600BDDA7E /* FSAliasRecognizer.m */; };
+		E5FBA86C1BBE87CD005755CD /* FSAliasToken.m in Sources */ = {isa = PBXBuildFile; fileRef = DA17B9161565890500BDDA7E /* FSAliasToken.m */; };
+		E5FBA86D1BBE87CD005755CD /* FSFormatCtorTokeniserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2B1DFB1566CC80002FDBD7 /* FSFormatCtorTokeniserDelegate.m */; };
+		E5FBA86E1BBE87CD005755CD /* FSFormatCtorParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2B1DFF1566DC37002FDBD7 /* FSFormatCtorParserDelegate.m */; };
+		E5FBA86F1BBE87CD005755CD /* NSProcessInfo+FSArgumentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4215A11562AC4100F82E8E /* NSProcessInfo+FSArgumentParser.m */; };
+		E5FBA8701BBE87CD005755CD /* NSArray+FSArgumentsNormalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4215AE1562DC0F00F82E8E /* NSArray+FSArgumentsNormalizer.m */; };
+		E5FBA8711BBE87CD005755CD /* NSString+Indenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0044C6155DC1160028A012 /* NSString+Indenter.m */; };
+		E5FBA8721BBE87CD005755CD /* NSDictionary+RubyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4215AA1562DB0C00F82E8E /* NSDictionary+RubyDescription.m */; };
+		E5FBA8731BBE87CD005755CD /* NSScanner+EscapedScanning.m in Sources */ = {isa = PBXBuildFile; fileRef = DA17B91E1565961C00BDDA7E /* NSScanner+EscapedScanning.m */; };
+		E5FBA8741BBE87CD005755CD /* FSArgumentPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF2F0214FD3BED0097C754 /* FSArgumentPackage.m */; };
+		E5FBA8751BBE87CD005755CD /* FSArgumentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF2F0414FD3BED0097C754 /* FSArgumentParser.m */; };
+		E5FBA8761BBE87CD005755CD /* FSArguments_Coalescer_Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0044BF155DA7BC0028A012 /* FSArguments_Coalescer_Internal.m */; };
+		E5FBA8771BBE87CD005755CD /* FSArgsKonstants.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4215B51562E09100F82E8E /* FSArgsKonstants.m */; };
+		E5FBA8781BBE87CD005755CD /* FSMutableAttributedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DA42159915629EF800F82E8E /* FSMutableAttributedArray.m */; };
+		E5FBA8A31BBE8873005755CD /* CoreParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FBA8A21BBE8873005755CD /* CoreParse.framework */; };
 		FF77826018A970F20006D56D /* CPLALR1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7BA37A18737DB9001A7138 /* CPLALR1Parser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FF77826118A970F20006D56D /* CPLR1Item.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7BA37C18737DB9001A7138 /* CPLR1Item.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FF77826218A970F20006D56D /* CPShiftReduceState.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7BA38918737DB9001A7138 /* CPShiftReduceState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -255,7 +275,7 @@
 			remoteGlobalIDString = DA004479155D94FF0028A012;
 			remoteInfo = "ArgumentParser-Dynamic";
 		};
-		E5FBA8491BBE8025005755CD /* PBXContainerItemProxy */ = {
+		E5FBA8641BBE8783005755CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DACF2EBB14FD3B2F0097C754 /* Project object */;
 			proxyType = 1;
@@ -451,6 +471,8 @@
 		E5FBA8251BBE7F0E005755CD /* ArgumentParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArgumentParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FBA8271BBE7F0E005755CD /* ArgumentParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArgumentParser.h; sourceTree = "<group>"; };
 		E5FBA8291BBE7F0E005755CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5FBA8A01BBE87EE005755CD /* libCoreParse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCoreParse.a; path = "CoreParse/build/Debug-iphoneos/libCoreParse.a"; sourceTree = "<group>"; };
+		E5FBA8A21BBE8873005755CD /* CoreParse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreParse.framework; path = CoreParse/build/Debug/CoreParse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -509,6 +531,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FBA8A31BBE8873005755CD /* CoreParse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,6 +842,8 @@
 		DACF2EC714FD3B2F0097C754 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5FBA8A21BBE8873005755CD /* CoreParse.framework */,
+				E5FBA8A01BBE87EE005755CD /* libCoreParse.a */,
 				DACF2EC814FD3B2F0097C754 /* Foundation.framework */,
 				DA00447B155D94FF0028A012 /* Cocoa.framework */,
 				DA00448D155D94FF0028A012 /* SenTestingKit.framework */,
@@ -1085,7 +1110,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E5FBA84A1BBE8025005755CD /* PBXTargetDependency */,
+				E5FBA8651BBE8783005755CD /* PBXTargetDependency */,
 			);
 			name = ArgumentParser;
 			productName = ArgumentParser;
@@ -1324,6 +1349,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FBA8661BBE87CD005755CD /* FSArgumentSignature.m in Sources */,
+				E5FBA8671BBE87CD005755CD /* FSCountedArgument.m in Sources */,
+				E5FBA8681BBE87CD005755CD /* FSValuedArgument.m in Sources */,
+				E5FBA8691BBE87CD005755CD /* FSSwitchRecognizer.m in Sources */,
+				E5FBA86A1BBE87CD005755CD /* FSSwitchToken.m in Sources */,
+				E5FBA86B1BBE87CD005755CD /* FSAliasRecognizer.m in Sources */,
+				E5FBA86C1BBE87CD005755CD /* FSAliasToken.m in Sources */,
+				E5FBA86D1BBE87CD005755CD /* FSFormatCtorTokeniserDelegate.m in Sources */,
+				E5FBA86E1BBE87CD005755CD /* FSFormatCtorParserDelegate.m in Sources */,
+				E5FBA86F1BBE87CD005755CD /* NSProcessInfo+FSArgumentParser.m in Sources */,
+				E5FBA8701BBE87CD005755CD /* NSArray+FSArgumentsNormalizer.m in Sources */,
+				E5FBA8711BBE87CD005755CD /* NSString+Indenter.m in Sources */,
+				E5FBA8721BBE87CD005755CD /* NSDictionary+RubyDescription.m in Sources */,
+				E5FBA8731BBE87CD005755CD /* NSScanner+EscapedScanning.m in Sources */,
+				E5FBA8741BBE87CD005755CD /* FSArgumentPackage.m in Sources */,
+				E5FBA8751BBE87CD005755CD /* FSArgumentParser.m in Sources */,
+				E5FBA8761BBE87CD005755CD /* FSArguments_Coalescer_Internal.m in Sources */,
+				E5FBA8771BBE87CD005755CD /* FSArgsKonstants.m in Sources */,
+				E5FBA8781BBE87CD005755CD /* FSMutableAttributedArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1350,10 +1394,10 @@
 			target = DA004479155D94FF0028A012 /* ArgumentParser-Dynamic */;
 			targetProxy = DA01E3061A8471E20012BCAE /* PBXContainerItemProxy */;
 		};
-		E5FBA84A1BBE8025005755CD /* PBXTargetDependency */ = {
+		E5FBA8651BBE8783005755CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DA87348818970AB800113896 /* ArgumentParser-Static */;
-			targetProxy = E5FBA8491BBE8025005755CD /* PBXContainerItemProxy */;
+			targetProxy = E5FBA8641BBE8783005755CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1629,6 +1673,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoreParse/build/Debug",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -1636,6 +1684,10 @@
 				INFOPLIST_FILE = ArgumentParser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoreParse/build/Debug-iphoneos",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.argparse.ArgumentParser;
@@ -1662,6 +1714,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoreParse/build/Debug",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -1669,6 +1725,10 @@
 				INFOPLIST_FILE = ArgumentParser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoreParse/build/Debug-iphoneos",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.argparse.ArgumentParser;
