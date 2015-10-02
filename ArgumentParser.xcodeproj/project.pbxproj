@@ -193,6 +193,26 @@
 		DACF2EF414FD3B7A0097C754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACF2EC814FD3B2F0097C754 /* Foundation.framework */; };
 		DACF2F0014FD3B840097C754 /* spiffy.m in Sources */ = {isa = PBXBuildFile; fileRef = DACF2EFF14FD3B840097C754 /* spiffy.m */; };
 		DADCF2C91873E48200B47AF1 /* NSString+FilledString.m in Sources */ = {isa = PBXBuildFile; fileRef = DADCF2C81873E48200B47AF1 /* NSString+FilledString.m */; };
+		E5FBA8281BBE7F0E005755CD /* ArgumentParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E5FBA8271BBE7F0E005755CD /* ArgumentParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA84C1BBE80EA005755CD /* FSArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0044AD155D966F0028A012 /* FSArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA84D1BBE80EA005755CD /* FSArgumentSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = DACF2F0514FD3BED0097C754 /* FSArgumentSignature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA84E1BBE80EA005755CD /* FSCountedArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0044AF155D99FF0028A012 /* FSCountedArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA84F1BBE80EA005755CD /* FSValuedArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0044B5155D9B2F0028A012 /* FSValuedArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8501BBE80EA005755CD /* FSSwitchRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA17B90C156584EB00BDDA7E /* FSSwitchRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8511BBE80EA005755CD /* FSSwitchToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DA17B9111565853E00BDDA7E /* FSSwitchToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8521BBE80EA005755CD /* FSAliasRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA17B9191565891600BDDA7E /* FSAliasRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8531BBE80EA005755CD /* FSAliasToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DA17B9151565890500BDDA7E /* FSAliasToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8541BBE80EA005755CD /* FSFormatCtorTokeniserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2B1DFA1566CC80002FDBD7 /* FSFormatCtorTokeniserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8551BBE80EA005755CD /* FSFormatCtorParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2B1DFE1566DC37002FDBD7 /* FSFormatCtorParserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8561BBE80EA005755CD /* NSProcessInfo+FSArgumentParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4215A01562AC4100F82E8E /* NSProcessInfo+FSArgumentParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8571BBE80EA005755CD /* NSArray+FSArgumentsNormalizer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4215AD1562DC0F00F82E8E /* NSArray+FSArgumentsNormalizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8581BBE80EA005755CD /* NSString+Indenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0044C5155DC1160028A012 /* NSString+Indenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA8591BBE80EA005755CD /* NSDictionary+RubyDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4215A91562DB0C00F82E8E /* NSDictionary+RubyDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA85A1BBE80EA005755CD /* NSScanner+EscapedScanning.h in Headers */ = {isa = PBXBuildFile; fileRef = DA17B91D1565961C00BDDA7E /* NSScanner+EscapedScanning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA85B1BBE80EA005755CD /* FSArgumentPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = DACF2F0114FD3BED0097C754 /* FSArgumentPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA85C1BBE80EA005755CD /* FSArgumentParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DACF2F0314FD3BED0097C754 /* FSArgumentParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA85D1BBE80EA005755CD /* FSArgsKonstants.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4215B41562E09100F82E8E /* FSArgsKonstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FBA85E1BBE80EA005755CD /* FSMutableAttributedArray.h in Headers */ = {isa = PBXBuildFile; fileRef = DA42159815629EF800F82E8E /* FSMutableAttributedArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF77826018A970F20006D56D /* CPLALR1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7BA37A18737DB9001A7138 /* CPLALR1Parser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FF77826118A970F20006D56D /* CPLR1Item.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7BA37C18737DB9001A7138 /* CPLR1Item.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FF77826218A970F20006D56D /* CPShiftReduceState.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7BA38918737DB9001A7138 /* CPShiftReduceState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -234,6 +254,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = DA004479155D94FF0028A012;
 			remoteInfo = "ArgumentParser-Dynamic";
+		};
+		E5FBA8491BBE8025005755CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACF2EBB14FD3B2F0097C754 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA87348818970AB800113896;
+			remoteInfo = "ArgumentParser-Static";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -421,6 +448,9 @@
 		DADCF2C71873E48200B47AF1 /* NSString+FilledString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FilledString.h"; sourceTree = "<group>"; };
 		DADCF2C81873E48200B47AF1 /* NSString+FilledString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FilledString.m"; sourceTree = "<group>"; };
 		DAEF09EB1561682800BED247 /* FSArgumentSignature_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSArgumentSignature_Private.h; sourceTree = "<group>"; };
+		E5FBA8251BBE7F0E005755CD /* ArgumentParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArgumentParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FBA8271BBE7F0E005755CD /* ArgumentParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArgumentParser.h; sourceTree = "<group>"; };
+		E5FBA8291BBE7F0E005755CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -472,6 +502,13 @@
 			files = (
 				DA59C5D118624A3C00DDE821 /* ArgumentParser-Dynamic.dylib in Frameworks */,
 				DACF2EF414FD3B7A0097C754 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FBA8211BBE7F0E005755CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,6 +796,7 @@
 				DA004481155D94FF0028A012 /* ArgumentParser */,
 				DA7BA35618737D6C001A7138 /* CoreParse */,
 				DA01E3001A8471E20012BCAE /* ArgumentParser-Dynamic Tests */,
+				E5FBA8261BBE7F0E005755CD /* ArgumentParser */,
 				DACF2EC714FD3B2F0097C754 /* Frameworks */,
 				DACF2EC514FD3B2F0097C754 /* Products */,
 			);
@@ -773,6 +811,7 @@
 				DA00447A155D94FF0028A012 /* ArgumentParser-Dynamic.dylib */,
 				DA87348918970AB800113896 /* libArgumentParser-Static.a */,
 				DA01E2FF1A8471E20012BCAE /* ArgumentParser-Dynamic Tests.xctest */,
+				E5FBA8251BBE7F0E005755CD /* ArgumentParser.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -808,6 +847,15 @@
 				DADCF2C81873E48200B47AF1 /* NSString+FilledString.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5FBA8261BBE7F0E005755CD /* ArgumentParser */ = {
+			isa = PBXGroup;
+			children = (
+				E5FBA8271BBE7F0E005755CD /* ArgumentParser.h */,
+				E5FBA8291BBE7F0E005755CD /* Info.plist */,
+			);
+			path = ArgumentParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -886,6 +934,33 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FBA8221BBE7F0E005755CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FBA8281BBE7F0E005755CD /* ArgumentParser.h in Headers */,
+				E5FBA84C1BBE80EA005755CD /* FSArguments.h in Headers */,
+				E5FBA84D1BBE80EA005755CD /* FSArgumentSignature.h in Headers */,
+				E5FBA84E1BBE80EA005755CD /* FSCountedArgument.h in Headers */,
+				E5FBA84F1BBE80EA005755CD /* FSValuedArgument.h in Headers */,
+				E5FBA8501BBE80EA005755CD /* FSSwitchRecognizer.h in Headers */,
+				E5FBA8511BBE80EA005755CD /* FSSwitchToken.h in Headers */,
+				E5FBA8521BBE80EA005755CD /* FSAliasRecognizer.h in Headers */,
+				E5FBA8531BBE80EA005755CD /* FSAliasToken.h in Headers */,
+				E5FBA8541BBE80EA005755CD /* FSFormatCtorTokeniserDelegate.h in Headers */,
+				E5FBA8551BBE80EA005755CD /* FSFormatCtorParserDelegate.h in Headers */,
+				E5FBA8561BBE80EA005755CD /* NSProcessInfo+FSArgumentParser.h in Headers */,
+				E5FBA8571BBE80EA005755CD /* NSArray+FSArgumentsNormalizer.h in Headers */,
+				E5FBA8581BBE80EA005755CD /* NSString+Indenter.h in Headers */,
+				E5FBA8591BBE80EA005755CD /* NSDictionary+RubyDescription.h in Headers */,
+				E5FBA85A1BBE80EA005755CD /* NSScanner+EscapedScanning.h in Headers */,
+				E5FBA85B1BBE80EA005755CD /* FSArgumentPackage.h in Headers */,
+				E5FBA85C1BBE80EA005755CD /* FSArgumentParser.h in Headers */,
+				E5FBA85D1BBE80EA005755CD /* FSArgsKonstants.h in Headers */,
+				E5FBA85E1BBE80EA005755CD /* FSMutableAttributedArray.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -998,6 +1073,25 @@
 			productReference = DACF2EF214FD3B7A0097C754 /* spiffy */;
 			productType = "com.apple.product-type.tool";
 		};
+		E5FBA8241BBE7F0E005755CD /* ArgumentParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5FBA83A1BBE7F0E005755CD /* Build configuration list for PBXNativeTarget "ArgumentParser" */;
+			buildPhases = (
+				E5FBA8201BBE7F0E005755CD /* Sources */,
+				E5FBA8211BBE7F0E005755CD /* Frameworks */,
+				E5FBA8221BBE7F0E005755CD /* Headers */,
+				E5FBA8231BBE7F0E005755CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5FBA84A1BBE8025005755CD /* PBXTargetDependency */,
+			);
+			name = ArgumentParser;
+			productName = ArgumentParser;
+			productReference = E5FBA8251BBE7F0E005755CD /* ArgumentParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1011,6 +1105,9 @@
 				TargetAttributes = {
 					DA01E2FE1A8471E20012BCAE = {
 						CreatedOnToolsVersion = 6.1.1;
+					};
+					E5FBA8241BBE7F0E005755CD = {
+						CreatedOnToolsVersion = 7.0.1;
 					};
 				};
 			};
@@ -1032,12 +1129,20 @@
 				DA004479155D94FF0028A012 /* ArgumentParser-Dynamic */,
 				DA87348818970AB800113896 /* ArgumentParser-Static */,
 				DA01E2FE1A8471E20012BCAE /* ArgumentParser-Dynamic Tests */,
+				E5FBA8241BBE7F0E005755CD /* ArgumentParser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DA01E2FD1A8471E20012BCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FBA8231BBE7F0E005755CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1215,6 +1320,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5FBA8201BBE7F0E005755CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1237,6 +1349,11 @@
 			isa = PBXTargetDependency;
 			target = DA004479155D94FF0028A012 /* ArgumentParser-Dynamic */;
 			targetProxy = DA01E3061A8471E20012BCAE /* PBXContainerItemProxy */;
+		};
+		E5FBA84A1BBE8025005755CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA87348818970AB800113896 /* ArgumentParser-Static */;
+			targetProxy = E5FBA8491BBE8025005755CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1496,6 +1613,72 @@
 			};
 			name = Release;
 		};
+		E5FBA8361BBE7F0E005755CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ArgumentParser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.argparse.ArgumentParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5FBA8371BBE7F0E005755CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = ArgumentParser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.argparse.ArgumentParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1515,6 +1698,7 @@
 				DA01E30A1A8471E20012BCAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA8734A318970AB800113896 /* Build configuration list for PBXNativeTarget "ArgumentParser-Static" */ = {
 			isa = XCConfigurationList;
@@ -1560,6 +1744,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		E5FBA83A1BBE7F0E005755CD /* Build configuration list for PBXNativeTarget "ArgumentParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5FBA8361BBE7F0E005755CD /* Debug */,
+				E5FBA8371BBE7F0E005755CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
