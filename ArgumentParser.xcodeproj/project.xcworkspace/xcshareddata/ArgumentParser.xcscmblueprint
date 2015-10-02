@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D1B6B9FA9FE2EC412736C36DCF6D3BF9E34BCB5C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D1B6B9FA9FE2EC412736C36DCF6D3BF9E34BCB5C" : 0,
+    "20B5E220B44D3958A2219B13999BCD96DC9444FE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "177AEC15-F5F1-4175-821D-D89A727BF9E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D1B6B9FA9FE2EC412736C36DCF6D3BF9E34BCB5C" : "ArgumentParser\/",
+    "20B5E220B44D3958A2219B13999BCD96DC9444FE" : "ArgumentParser\/CoreParse\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ArgumentParser",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ArgumentParser.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:beelsebob\/CoreParse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20B5E220B44D3958A2219B13999BCD96DC9444FE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github-private:azalan\/ArgumentParser.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D1B6B9FA9FE2EC412736C36DCF6D3BF9E34BCB5C"
+    }
+  ]
+}
